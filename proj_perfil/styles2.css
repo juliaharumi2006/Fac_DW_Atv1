@@ -29,13 +29,23 @@ body {
 }
 .box{ /* classe dos botões individuais*/
     padding: 15px;
-    background-color: #383434;
+    background-color: #383838;
     width: 300px;
     border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
 }
-.rubik{
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 30px;
-    font-style: normal;
-  }
+h1{
+
+    font-size: 27px;
+}
+h2{
+    font-size: 15px;
+    color: rgb(160, 236, 46);
+}
+p{
+    font-size: 15px;
+}
+.text_title{
+    line-height: 15px;
+}
