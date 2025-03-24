@@ -1,19 +1,79 @@
-body{
+body {
     background-color: #ffecfc;
     background-image: url("fundo_FAQs.jpeg");
     background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-    width: 100vh;
-    background-position: center top;
+}
 
+.card {
+    background-color: white;
+    width: 550px;
+    height: flex;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
+h1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 55px;
+    font-family: 'Mitr';
+    color: #381434;
+}
+
+.text1 {
+    font-family: 'Rubik';
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #431b3e;
 
 }
 
+.text2 {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    letter-spacing: 1.5px;
+    font-family: 'Rubik';
+    font-weight: 400;
+    line-height: 25px;
+    color: #7c4f76;
+    border-bottom: 2px solid rgb(248, 243, 243);
+}
 
+.list {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #431b3e;
+    font-family: 'Rubik';
+    border-bottom: 2px solid rgb(248, 243, 243);
+}
 
+.list_noborder {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #431b3e;
+    font-family: 'Rubik';
+}
 
-
-.card{
-
+.sparkle {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: rgb(246, 60, 246);
+}
+.sparkle i {
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
 }
