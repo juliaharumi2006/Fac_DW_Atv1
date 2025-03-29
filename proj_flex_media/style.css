@@ -1,0 +1,16 @@
+* {/*reseta algumas propiedades do google*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+.blue{
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    align-items: top ;
+    height: 100vh;
+    height: 100px;
+}
