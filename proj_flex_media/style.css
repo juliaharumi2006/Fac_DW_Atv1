@@ -3,14 +3,94 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+.container{
     display: flex;
-}
-.blue{
-    display: flex;
-    background-color: aqua;
     justify-content: center;
-    align-items: top ;
-    height: 100vh;
-    height: 100px;
+    width: 100vw;
+    height: 15vh;
+    background-color: aqua;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+.box2:nth-child(1){
+    display: flex;
+    width: 80vw;
+    background-color: rgb(232, 118, 203);
+    height: 60vh;
+    justify-content: center;
+
+}
+.box2:nth-child(2){
+    display: flex;
+    background-color: rgb(241, 241, 165);
+    width: 20vw;
+    height: 60vh;
+    justify-content: center;
+}
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    gap: 2px;
+}
+.box3:nth-child(1){
+    background-color: rgb(123, 237, 123);
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    width: 20vw;
+}
+.box3:nth-child(2){
+    background-color: rgb(123, 237, 123);
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    width: 60vw;
+}
+.box3:nth-child(3){
+    background-color: rgb(123, 237, 123);
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    width: 20vw;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .container2{
+        flex-direction: column;
+    }
+    .box2:nth-child(1){
+        width: 100vw;
+        height: 40vh;
+    }
+    .box2:nth-child(2){
+        width: 100vw;
+        height: 20vh;
+    }
+
+    .container3{
+        height: 30vh;
+    }
+    .box3:nth-child(1){
+        width: 50vw;
+        height: 5vh;
+        align-self: flex-end;
+    }
+    .box3:nth-child(2){
+        width: 100vw;
+        height: 5vh; 
+    }
+    .box3:nth-child(3){
+        width: 50vw;
+        height: 5vh;
+        align-self: flex-end;
+    }
 }
