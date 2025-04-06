@@ -17,14 +17,18 @@ body {
     border-radius: 20px;
     padding-left: 50px;
     padding-right: 50px;
+
 }
 
 h1 {
-    margin-top: 40px;
-    margin-bottom: 40px;
     font-size: 55px;
     font-family: 'Mitr';
     color: #381434;
+}
+.bi-suit-diamond-fill{
+    color: rgb(200, 0, 255);
+    padding-right: 30px;
+    font-size: 47px;
 }
 
 .text1 {
@@ -33,7 +37,11 @@ h1 {
     font-weight: 600;
     letter-spacing: 1px;
     color: #431b3e;
-
+}
+.bi-dash-circle-fill{
+    font-size: 25px;
+    color:  #431b3e;
+    padding-left: 43px;
 }
 
 .text2 {
@@ -44,10 +52,19 @@ h1 {
     font-weight: 400;
     line-height: 25px;
     color: #7c4f76;
-    border-bottom: 2px solid rgb(248, 243, 243);
 }
 
-.list {
+.list1 {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #431b3e;
+    font-family: 'Rubik';
+    border-bottom: 2px solid rgb(248, 243, 243);
+}
+.list2 {
     margin-top: 30px;
     padding-bottom: 30px;
     font-size: 18px;
@@ -58,7 +75,7 @@ h1 {
     border-bottom: 2px solid rgb(248, 243, 243);
 }
 
-.list_noborder {
+.list_noborder { /*ultimo elemento da lista que não possui borda aparente*/
     margin-top: 30px;
     padding-bottom: 30px;
     font-size: 18px;
@@ -67,13 +84,11 @@ h1 {
     color: #431b3e;
     font-family: 'Rubik';
 }
+.bi-plus-circle-fill {
+    color: rgb(200, 0, 255);
+    font-size: 25px;
+}
 
-.sparkle {
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    color: rgb(246, 60, 246);
-}
-.sparkle i {
-    margin-right: 10px; /* Espaço entre o ícone e o texto */
-}
+
+
+
